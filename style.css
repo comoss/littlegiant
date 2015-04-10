@@ -108,6 +108,28 @@ body{
 	margin-right: auto;
 	width: 235px;
 }
+
+.callOut{
+	color: white;
+	width: 312px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 85px;
+}
+
+.callOutLink{
+	color: white;
+}
+
+.callOutLink:hover{
+	color:#ff6600;
+}
+
+.ladderName{
+	text-align: center;
+	color:black;
+}
+
 /* {
    border: 1px solid red !important;
 }
