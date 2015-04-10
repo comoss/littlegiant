@@ -16,7 +16,7 @@ body{
 .mainBox{
   width: 100%;
   margin-bottom: 0px;
-  margin-top: 450px;
+  margin-top: 375px;
   background-color: white;
   padding-bottom: 100px;
 }
@@ -46,7 +46,6 @@ body{
 	margin-right: auto;
 	width: 50%;
 	margin-top: 100px;
-	
 }
 
  .left{	
@@ -55,7 +54,6 @@ body{
 	margin-right: auto;
 	width: 50%;
 	margin-top: 100px;
-	
 	float: left
 }
 
@@ -106,12 +104,12 @@ body{
 .faBox{
 	margin-left: auto;
 	margin-right: auto;
-	width: 235px;
+	width: 255px;
 }
 
 .callOut{
 	color: white;
-	width: 312px;
+	width: 225px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 85px;
@@ -128,6 +126,49 @@ body{
 .ladderName{
 	text-align: center;
 	color:black;
+}
+
+.right2{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	padding: 2.5em;
+}
+
+ .left2{	
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	margin-top: 80px;
+	float: left;
+	margin-bottom:80px;
+}
+
+.introduction1{
+	text-align: center;
+	font-size: 4.5em;
+	color:white;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+}
+
+.subHeading1{
+	text-align: center;
+	color: white;
+	font-family:'Raleway', sans-serif;
+	margin-top: 250px;
+}
+
+.mainBox1{
+  width: 100%;
+  margin-bottom: 0px;
+  margin-top: 250px;
+  background-color: white;
+  padding-bottom: 50px;
 }
 
 /* {
