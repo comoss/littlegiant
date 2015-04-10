@@ -1,0 +1,39 @@
+html { 
+  background: url("http://lateraltechnique.co/wp-content/uploads/2014/06/construction-hard-hat.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+}
+
+.mainBox{
+  width: 102%;
+  height: 500px;
+  margin-top: 450px;
+  background-color: white;
+  margin-left: -1em;
+}
+
+.introcontainer{
+	width: 100%
+}
+
+.introduction{
+	text-align: center;
+	font-size: 75px;
+	margin-top: 250px;
+	color:white;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+}
+
+.subHeading{
+	text-align: center;
+	color: white;
+	font-family:'Raleway', sans-serif;
+}
+
+/* {
+   border: 1px solid red !important;
+}
