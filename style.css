@@ -5,16 +5,20 @@ html {
   -o-background-size: cover;
   background-size: cover;
   width: 100%;
-  margin: 0px;
-  padding:0px;
+  font-family: sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+body{
+	margin:0px;
 }
 
 .mainBox{
-  width: 102%;
+  width: 100%;
   margin-bottom: 0px;
   margin-top: 450px;
   background-color: white;
-  margin-left: -1em;
+  padding-bottom: 100px;
 }
 
 .introcontainer{
@@ -23,7 +27,7 @@ html {
 
 .introduction{
 	text-align: center;
-	font-size: 75px;
+	font-size: 4.5em;
 	margin-top: 250px;
 	color:white;
 	font-family: 'Raleway', sans-serif;
@@ -42,9 +46,8 @@ html {
 	margin-right: auto;
 	width: 50%;
 	margin-top: 100px;
-	margin-bottom: 50px;
+	
 }
-
 
  .left{	
 	display: inline-block;
@@ -52,10 +55,9 @@ html {
 	margin-right: auto;
 	width: 50%;
 	margin-top: 100px;
-	margin-bottom: 50px;
+	
 	float: left
 }
-
 
 .leftImgBox{
 	margin-left: auto;
@@ -69,10 +71,43 @@ html {
 	width:264px;
 }
 
+.teaser{
+	width: 264px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+}
 
+.footer{
+	background-color: #1f1f1f;
+	height: 275px;
+	width: 100%;
+}
 
+.footerShare{
+	width: 100%;
+	height: 100px;
+	background-color: #333;
+	position:relative;
+	top: 0;
+}
 
+.fa{
+	color: white; 
+	margin-top: 35px;
+	margin-left: .25em;
+	margin-right: .25em;
+}
 
+.fa:hover{
+	color:#ff6600;
+}
+
+.faBox{
+	margin-left: auto;
+	margin-right: auto;
+	width: 235px;
+}
 /* {
    border: 1px solid red !important;
 }
