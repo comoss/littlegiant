@@ -60,13 +60,13 @@ body{
 .leftImgBox{
 	margin-left: auto;
 	margin-right: auto;
-	width: 264px;
+	width: 350px;
 }
 
 .rightImgBox{
 	margin-left: auto;
 	margin-right: auto;
-	width:264px;
+	width:350px;
 }
 
 .teaser{
@@ -109,10 +109,11 @@ body{
 
 .callOut{
 	color: white;
-	width: 225px;
+	width: 700px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 85px;
+	text-align: center;
 }
 
 .callOutLink{
@@ -169,8 +170,25 @@ body{
   margin-bottom: 0px;
   margin-top: 250px;
   background-color: white;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 }
+
+.mainBox2{
+  width: 100%;
+  margin-bottom: 0em;
+  margin-top: 0px;
+  background-color: white;
+  padding-bottom: 7em;
+}
+
+.mainBox3{
+  width: 100%;
+  margin-bottom: 4em;
+  margin-top: 0px;
+  background-color: black;
+  padding-bottom: 7em;
+}
+
 
 .requestInfoButton{
 	height: 31px;
@@ -201,6 +219,14 @@ body{
 	height: 70px;
 }
 
+.imgTeaser{
+	max-width: 100%;
+	}
+
+.mainbox3text{
+	color:white;
+	font-family: 'Raleway', sans-serif;
+}
 
 /* {
    border: 1px solid red !important;
