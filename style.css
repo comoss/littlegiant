@@ -1,16 +1,16 @@
 html { 
-  background: url("http://lateraltechnique.co/wp-content/uploads/2014/06/construction-hard-hat.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  width: 100%;
-  font-family: sans-serif;
-  -webkit-font-smoothing: subpixel-antialiased;
+
 }
 
 body{
 	margin:0px;
+  background: url("https://lh3.googleusercontent.com/-7r_wog9sc0U/VTNBxtHq9zI/AAAAAAAAADk/H9mWETTRGFY/w958-h548-no/73214442_227f267cda_o.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 
 .mainBox{
@@ -87,7 +87,6 @@ body{
 	height: 100px;
 	background-color: #333;
 	position:relative;
-	top: 0;
 }
 
 .fa{
@@ -132,22 +131,20 @@ body{
 
 .right2{
 	display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 40%;
+	margin-right: 5%;
+	width: 45%;
 	margin-top: 80px;
 	margin-bottom: 80px;
-	padding: 2.5em;
 }
 
  .left2{	
 	display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
+	margin-left: 5%;
+	width: 45%;
 	margin-top: 80px;
 	float: left;
 	margin-bottom:80px;
+
 }
 
 .introduction1{
@@ -165,28 +162,33 @@ body{
 	margin-top: 250px;
 }
 
-.mainBox1{
+#mainBox1{
   width: 100%;
   margin-bottom: 0px;
   margin-top: 250px;
   background-color: white;
-  padding-bottom: 25px;
+  padding: 4em 2em 4em 2em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.mainBox2{
+#mainBox2{
   width: 100%;
   margin-bottom: 0em;
   margin-top: 0px;
   background-color: white;
-  padding-bottom: 7em;
+  padding: 8em 2em 6em 2em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.mainBox3{
+#mainBox3{
   width: 100%;
-  margin-bottom: 4em;
-  margin-top: 0px;
   background-color: black;
-  padding-bottom: 7em;
+  padding-bottom: 15em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 6em 2em 8em 2em;
 }
 
 
@@ -194,6 +196,18 @@ body{
 	height: 31px;
 	width: 148px;
 	padding: 10px 0px 0px 0px;
+	border: 2px solid white;
+	border-radius: 300px;
+	float: right;
+	margin-right: 1.5em;
+	text-align: center;
+	margin-top: 1em;
+}
+
+.requestInfoButton1{
+	height: 31px;
+	width: 148px;
+	padding: 4px 0px 0px 0px;
 	border: 2px solid white;
 	border-radius: 300px;
 	float: right;
@@ -226,6 +240,16 @@ body{
 .mainbox3text{
 	color:white;
 	font-family: 'Raleway', sans-serif;
+}
+
+.productDescription{
+	margin-left: 4em;
+	margin-right: 4em;
+}
+
+
+.container-fluid{
+	width: 100%;
 }
 
 /* {
