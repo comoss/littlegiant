@@ -7,14 +7,12 @@
       $stateProvider
         .state('home', {
             url: "/home",
-            templateUrl: "index.html"
+            templateUrl: "home.html"
         })
-          
         .state('overhaul', {
             url: "/overhaul",
             templateUrl: "views/overhaul.html",
           })
-          
         .state('ladder2', {
             url: "/ladder2",
             templateUrl: "views/ladder2.html"

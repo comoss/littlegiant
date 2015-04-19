@@ -12,50 +12,8 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 </head>
 <body>
-<form-directive></form-directive>
 
-<div ui-view>
-
-	<div class='introContainer'>
-		<h1 class="introduction">Introducing</h1>
-		<H2 class="subHeading">Two revolutionary new ladders</H2>
-	</div>
-
-<div id='mainBox' class='row'>
-		
-		<a class='ladderName' ui-sref='overhaul'> 
-			<div class="col-xs-6 col-md-6" id='left'>
-				<div class="rightImgBox">
-					<img class='imgTeaser' src="images/Overhaul17_Ratchet_Hero.jpg">
-				</div>	
-				<div class='teaser'>
-					<H4>OVERHAUL</H4>
-			
-					<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					</p>
-				</div>
-			</div>
-			</a> 
-
-		<div class='col-xs-6 col-md-6' id='right'>	
-			<a class='ladderName' href="views/ladder2.html">
-				<div class="leftImgBox">
-					<img class="imgTeaser" src="https://www.littlegiantladder.com/media/catalog/product/cache/1/small_image/9df78eab33525d08d6e5fb8d27136e95/r/e/revolution-small.jpg">
-				</div>
-			</a>
-				<div class='teaser'>
-					<H4>TURBO</H4>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					</p>
-				</div>
-		</div>
-</div>
+<div ui-view></div>
 
 
 	<div class="footer">
@@ -84,6 +42,8 @@
   <!-- App Script -->
   <script src='scripts/app.js'></script>
 
+  <!-- directives -->
+<script src='scripts/directives/formDirective.js'></script>
 
 </body>
 </html>
