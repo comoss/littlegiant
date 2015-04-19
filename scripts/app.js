@@ -9,21 +9,14 @@
             url: "/home",
             templateUrl: "home.html"
         })
+          
         .state('overhaul', {
             url: "/overhaul",
             templateUrl: "views/overhaul.html",
           })
+          
         .state('ladder2', {
             url: "/ladder2",
             templateUrl: "views/ladder2.html"
         })
-
-});
-
-            .directive('formLink', function(){
-			return{
-			restrict: 'AE',
-			template: 'views/form.html'
-	};
-
     })
