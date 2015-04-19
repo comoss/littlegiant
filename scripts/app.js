@@ -12,11 +12,11 @@
           
         .state('overhaul', {
             url: "/overhaul",
-            templateUrl: "pages/overhaul.html",
+            templateUrl: "views/overhaul.html",
           })
           
         .state('ladder2', {
             url: "/ladder2",
-            templateUrl: "pages/ladder2.html"
+            templateUrl: "views/ladder2.html"
         })
     })
