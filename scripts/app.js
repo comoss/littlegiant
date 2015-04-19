@@ -17,4 +17,13 @@
             url: "/ladder2",
             templateUrl: "views/ladder2.html"
         })
+
+});
+
+            .directive('formLink', function(){
+			return{
+			restrict: 'AE',
+			template: 'views/form.html'
+	};
+
     })

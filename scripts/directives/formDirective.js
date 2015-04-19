@@ -1,4 +1,4 @@
-var lgApp = angular.module('lgApp')
+var lgApp = angular.module('lgApp');
 
 lgApp.directive('formLink', function(){
 	return{
