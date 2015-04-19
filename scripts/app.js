@@ -7,7 +7,7 @@
       $stateProvider
         .state('home', {
             url: "/home",
-            templateUrl: "home.html"
+            templateUrl: "views/home.html"
         })
           
         .state('overhaul', {
