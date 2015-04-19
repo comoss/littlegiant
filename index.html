@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us" ng-app="lgApp">
 <head>
 	<title>Little Giant New Products</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Style Sheet -->
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<!-- Raleway Font Style -->
 	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<!-- Font Awesome -->
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 </head>
 <body>
 
@@ -15,6 +19,8 @@
 		</div>
 	</div>
 
+<div ui-view>
+
 	<div class='introContainer'>
 		<h1 class="introduction">Introducing</h1>
 		<H2 class="subHeading">Two revolutionary new ladders</H2>
@@ -22,13 +28,10 @@
 
 	<div class='mainBox'>
 		
-<!-- 		<h2 class=''>From the leaders of the saftey revolution</h2>
-		<h3 class=''>We are proud to present our latests innovations to help you get your job done</h3> -->
-		
-		<a class='ladderName' href="overhaul.html"> 
+		<a class='ladderName' ui-sref='overhaul'> 
 			<div class="right">
 				<div class="rightImgBox">
-					<img class='imgTeaser' src="https://lh6.googleusercontent.com/-vVSsU1BQXYA/VTMJrpDmyxI/AAAAAAAAACA/UItzMtMb-PE/w542-h638-no/Overhaul17_Ratchet_Hero.jpg">
+					<img class='imgTeaser' src="images/Overhaul17_Ratchet_Hero.jpg">
 				</div>	
 			<div class='teaser'>
 				<H4>OVERHAUL</H4>
@@ -37,12 +40,11 @@
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-
 				</p>
-			</div>
-		</div>
+	</div>
+
 		<div class='left'>	
-			<a class='ladderName' href="ladder2.html">
+			<a class='ladderName' href="pages/ladder2.html">
 				<div class="leftImgBox">
 					<img class="imgTeaser" src="https://www.littlegiantladder.com/media/catalog/product/cache/1/small_image/9df78eab33525d08d6e5fb8d27136e95/r/e/revolution-small.jpg">
 				</div>
@@ -55,10 +57,9 @@
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				
 				</p>
-			</div>
 		</div>
-	</div>
- 
+</div>
+
 	<div class="footer">
 		<div class="footerShare">
 			<div class="faBox">
@@ -73,7 +74,18 @@
 			Visit us at <a class='callOutLink' href="http://littlegiantladders.com/">littlegiantladders.com</a>
 			<p>Website proudly designed and coded by <a class='callOutLink' href="http://devstop.co">Devstop</a> LLC</p>
 		</div>
-
 	</div>
+
+
+<!-- Scripts -->
+
+  <!-- Angular -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.4/angular.js"></script>
+  <!-- UI-Router -->
+  <script src="http://angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>
+  <!-- App Script -->
+  <script src='scripts/app.js'></script>
+
+
 </body>
 </html>
