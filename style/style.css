@@ -4,7 +4,7 @@
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) { 
 	body{
-	  background: url("https://lh3.googleusercontent.com/-7r_wog9sc0U/VTNBxtHq9zI/AAAAAAAAADk/H9mWETTRGFY/w958-h548-no/73214442_227f267cda_o.jpg") no-repeat center center fixed; 
+	  background: url("https://lh3.googleusercontent.com/-7r_wog9sc0U/VTNBxtHq9zI/AAAAAAAAADk/H9mWETTRGFY/w958-h548-no/73214442_227f267cda_o.jpg"); 
 	}
  }
 
