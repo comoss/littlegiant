@@ -42,7 +42,7 @@ body{
 .rightImgBox{
 	margin-left: auto;
 	margin-right: auto;
-	width:350px;
+	width:100%;
 }
 
 .teaser{
@@ -56,14 +56,12 @@ body{
 	background-color: #1f1f1f;
 	height: 275px;
 	width: 100%;
-	position: fixed;
 }
 
 .footerShare{
 	width: 100%;
 	height: 100px;
 	background-color: #333;
-	position:fixed;
 }
 
 .fa{
@@ -80,8 +78,7 @@ body{
 .faBox{
 	margin-left: auto;
 	margin-right: auto;
-	width: 235px;
-	position: fixed;
+	width: 15em;
 }
 
 .callOut{
@@ -89,7 +86,7 @@ body{
 	width: 700px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 85px;
+	margin-top: 55px;
 	text-align: center;
 }
 
@@ -219,13 +216,12 @@ body{
 	font-family: 'Raleway', sans-serif;
 }
 
-.productDescription{
-	margin-left: 4em;
-	margin-right: 4em;
-}
-
 .container-fluid{
 	width: 100%;
+}
+
+.space{
+	margin:1em 0em 1em 0em;
 }
 
 /* {
