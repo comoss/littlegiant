@@ -11,13 +11,13 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	<!-- Mobile View -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
 </head>
 <body>
 
 <form-link></form-link>
 
-<div ui-view></div>
+<div class='container-fluid' ui-view></div>
 
 <the-footer></the-footer>
 
@@ -29,7 +29,6 @@
   <script src="http://angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>
   <!-- App Script -->
   <script src='scripts/app.js'></script>
-
   <!-- directives -->
   <script src='scripts/directives/formDirective.js'></script>
   <script src='scripts/directives/footerDirective.js'></script>
