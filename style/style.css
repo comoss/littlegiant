@@ -21,7 +21,7 @@ body{
 @media (min-width: @screen-lg-min) { 
 
 body{
-  background-color: red; 
+  background-color: url("https://lh3.googleusercontent.com/-7r_wog9sc0U/VTNBxtHq9zI/AAAAAAAAADk/H9mWETTRGFY/w958-h548-no/73214442_227f267cda_o.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -32,7 +32,7 @@ body{
 
 
 body{
-  background: url("https://lh3.googleusercontent.com/-7r_wog9sc0U/VTNBxtHq9zI/AAAAAAAAADk/H9mWETTRGFY/w958-h548-no/73214442_227f267cda_o.jpg") no-repeat center center fixed; 
+  background-color: red; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
