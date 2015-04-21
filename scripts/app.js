@@ -19,4 +19,8 @@
             url: "/ladder2",
             templateUrl: "views/ladder2.html"
         })
+        .state('contact', {
+            url: "/contactus",
+            templateUrl: "views/form.html"
+        })        
     })
