@@ -1,15 +1,19 @@
 /* Extra small devices (phones, less than 768px) 
- No media query since this is the default in Bootstrap 
+ No media query since this is the default in Bootstrap */
 
- Small devices (tablets, 768px and up) 
-@media (min-width: @screen-sm-min) { ... }
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+	body{
+	background-color: #b20000;
+   }
+ }
 
- Medium devices (desktops, 992px and up) 
+/* Medium devices (desktops, 992px and up) */
 @media (min-width: @screen-md-min) { ... }
 
- Large devices (large desktops, 1200px and up) 
+/* Large devices (large desktops, 1200px and up)*/ 
 @media (min-width: @screen-lg-min) { ... }
-*/
+
 
 body{
   background: url("https://lh3.googleusercontent.com/-7r_wog9sc0U/VTNBxtHq9zI/AAAAAAAAADk/H9mWETTRGFY/w958-h548-no/73214442_227f267cda_o.jpg") no-repeat center center fixed; 
