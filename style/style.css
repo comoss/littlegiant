@@ -2,9 +2,11 @@
  No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { 	body{
-	background-color: #b20000;
-   }}
+@media (min-width: @screen-sm-min) { 
+	body{
+	background-color: #b20000 !important;
+   }
+}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: @screen-md-min) { 
@@ -28,7 +30,7 @@ body{
 }
 }
 	body{
-	background-color: #b20000;
+	background-color: #b20000 !important;
    }
 
 
