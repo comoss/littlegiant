@@ -27,6 +27,21 @@ body{
 		font-size: 1em;
 	}
 
+	.introduction1{
+	text-align: center;
+	font-size: 3.5em;
+	color:white;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+}
+
+	.subHeading1{
+		text-align: center;
+		color: white;
+		font-family:'Raleway', sans-serif;
+		margin-top: 180px;
+	}
+
 
 }
 
@@ -118,6 +133,24 @@ body{
 	#right{
 		padding-right: 5em;
 	}
+
+	.introduction1{
+	text-align: center;
+	font-size: 4.5em;
+	color:white;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+}
+
+	.subHeading1{
+		text-align: center;
+		color: white;
+		font-family:'Raleway', sans-serif;
+		margin-top: 180px;
+	}
+
+
+
 }
  
 
@@ -218,20 +251,7 @@ body{
 padding: 3em;
 }
 
-.introduction1{
-	text-align: center;
-	font-size: 4.5em;
-	color:white;
-	font-family: 'Raleway', sans-serif;
-	text-transform: uppercase;
-}
 
-.subHeading1{
-	text-align: center;
-	color: white;
-	font-family:'Raleway', sans-serif;
-	margin-top: 180px;
-}
 
 #mainBox1{
   width: 100%;
