@@ -6,62 +6,50 @@ body{
    background-size: cover;
 }
 
-   .imgTeaser{
-	max-width: 70%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
-@media (max-width: @screen-xs-max) { 
-/*
-	#height{
-	 height:65%; 
-	 width: 65%;
-	 margin-left: 5em;
-	}*/
+
+@media (max-width: 768px) { 
 
    .imgBox{
-	 max-width: 200px;
+	 max-width: 300px;
+	 margin-left: auto;
+	 margin-right: auto;
    }
 
+   .mainbox3text{
+	color:white;
+	font-family: 'Raleway', sans-serif;
+	padding: 0em 4em 0em 4em;
+	margin-right: 2em;
+	text-align: center;
+	margin-top: 15%;
+}
+
+}
 
  }
  /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { 
+@media (min-width: 769px) and (max-width: 991px) { 
 
-	#height{
-	 height:65%; 
-	 width: 65%;
-	 margin-left: 6em;
-	}
 
 	.imgBox{
 	 margin-left: auto;
 	 margin-right: auto;
-	 width: 300px;
+	 max-width: 300px;
    }
-
-   .imgTeaser{
-	max-width: 100%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
 
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { 
-	body{
+@media (min-width: 992px) and (max-width: 1199px) { 
+/*	body{
 		  background: url("https://lh3.googleusercontent.com/-7r_wog9sc0U/VTNBxtHq9zI/AAAAAAAAADk/H9mWETTRGFY/w958-h548-no/73214442_227f267cda_o.jpg") no-repeat center center fixed; 
 		  -webkit-background-size: cover;
 		  -moz-background-size: cover;
 		  -o-background-size: cover;
 		  background-size: cover;
-		}
+		}*/
 
 	.imgBox{
 	 margin-left: auto;
@@ -69,38 +57,31 @@ body{
 	 max-width: 400px;
    }
 
-   .imgTeaser{
-	max-width: 100%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
  }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { 
+@media (min-width: 1200px) { 
 
-	body{
+/*	body{
 		  background: url("https://lh3.googleusercontent.com/-7r_wog9sc0U/VTNBxtHq9zI/AAAAAAAAADk/H9mWETTRGFY/w958-h548-no/73214442_227f267cda_o.jpg") no-repeat center center fixed; 
 		  -webkit-background-size: cover;
 		  -moz-background-size: cover;
 		  -o-background-size: cover;
 		  background-size: cover;
-		}
+		}*/
 		
-
+/*
 	#height{
 	 height:65%; 
 	 width: 65%;
 	 margin-left: 6em;
-	}
-
+	}*/
+/*
 	#height2{
 	 height:45%; 
 	 width: 45%;
 	 margin-left: 7em;
-	}
+	}*/
 
 	.imgBox{
 	 margin-left: auto;
@@ -108,12 +89,24 @@ body{
 	 width: 500px;
    }
 
-   .imgTeaser{
-	max-width: 100%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
+	.mainbox3text{
+		color:white;
+		font-family: 'Raleway', sans-serif;
+		padding: 0em 2em 0em 2em;
+		margin-right: 2em;
+		text-align: center;
+		margin-top: 5%;
+			font-size: 1.5em;
+	}
+
+	.productDescription{
+		text-align: center;
+		padding: 3em;
+		margin-top: 25%;
+		font-size: 1.5em;
+	}
+
+
 
  }
 
@@ -131,7 +124,9 @@ body{
 }
 
 .introcontainer{
-	width: 100%
+	width
+
+	: 100%
 }
 
 .container-fluid{
@@ -299,14 +294,6 @@ padding: 3em;
 	height: 70px;
 }
 
-.mainbox3text{
-	color:white;
-	font-family: 'Raleway', sans-serif;
-	padding: 4em;
-	margin-right: 2em;
-	text-align: center;
-}
-
 .space{
 	margin:1em 0em 1em 0em;
 }
@@ -328,23 +315,6 @@ margin-top: 100px;
 margin-bottom: 100px;
 padding-left: auto;
 padding-right: auto;
-}
-
-.productDescription{
-	text-align: center;
-	padding: 3em;
-}
-
-/*#height{
-height:65%; 
-width: 65%;
-margin-left: 3em;
-}*/
-
-#height2{
-height:45%; 
-width: 45%;
-margin-left: 4em;
 }
 
 /* {
