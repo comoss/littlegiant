@@ -4,7 +4,7 @@
 @media (max-width: 767px) { 
 
 body{
-  background: url('https://lh4.googleusercontent.com/-jImRxXN7glg/VTlXj7K5fRI/AAAAAAAA2iA/K7NvbzmR5aQ/w402-h572-no/background.jpg') repeat-y center bottom fixed; 	 
+  background: url('https://lh4.googleusercontent.com/-jImRxXN7glg/VTlXj7K5fRI/AAAAAAAA2iA/K7NvbzmR5aQ/w402-h572-no/background.jpg') repeat-x center bottom fixed; 	 
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -55,19 +55,35 @@ body{
    background-size: cover;
 }
 
-/*
- .productDescription{
- 	text-align: center;
- 	padding: 0em 3em 2em 3em;
- 	font-size: 1.25em;
+	.introduction1{
+	text-align: center;
+	font-size: 4.5em;
+	color:white;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+}
+
+	.subHeading1{
+		text-align: center;
+		color: white;
+		font-family:'Raleway', sans-serif;
+		margin-top: 180px;
 	}
 
-	.imgBox{
+	 .imgBox{
+	 max-width: 300px;
 	 margin-left: auto;
 	 margin-right: auto;
-	 max-width: 300px;
    }
-*/
+   
+	.productDescription{
+		text-align: center;
+		padding: 0em .5em 2em .5em;
+		font-size: 1em;
+	}
+
+
+
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -93,6 +109,22 @@ body{
 		vertical-align: 50%;
 		font-size: 1.5em;
 	}
+
+	.introduction1{
+	text-align: center;
+	font-size: 4.5em;
+	color:white;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+}
+
+	.subHeading1{
+		text-align: center;
+		color: white;
+		font-family:'Raleway', sans-serif;
+		margin-top: 180px;
+	}
+
 
 
  }
