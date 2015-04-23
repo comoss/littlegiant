@@ -6,40 +6,16 @@ body{
    background-size: cover;
 }
 
-
+   .imgTeaser{
+	max-width: 70%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 @media (max-width: @screen-xs-max) { 
-
-	#mainBox1{
-	  width: 100%;
-	  margin-bottom: 0px;
-	  margin-top: 250px;
-	  background-color: white;
-	  padding: 2em 0em 2em 0em;
-	  margin-left: auto;
-	  margin-right: auto;
-	}
-
-	#mainBox2{
-	  width: 100%;
-	  margin-bottom: 0em;
-	  margin-top: 0px;
-	  background-color: white;
-	  padding: 4em 0em 3em 0em;
-	  margin-left: auto;
-	  margin-right: auto;
-	}
-
-	#mainBox3{
-	  width: 100%;
-	  background-color: black;
-	  padding-bottom: 15em;
-	  margin-left: auto;
-	  margin-right: auto;
-	  padding: 3em 0em 4em 0em;
-	}
 /*
 	#height{
 	 height:65%; 
@@ -47,37 +23,14 @@ body{
 	 margin-left: 5em;
 	}*/
 
+   .imgBox{
+	 max-width: 200px;
+   }
+
+
  }
  /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { 
-
-	#mainBox1{
-	  width: 100%;
-	  margin-bottom: 0px;
-	  margin-top: 250px;
-	  background-color: white;
-	  padding: 3em 1em 3em 1em;
-	  margin-left: auto;
-	  margin-right: auto;
-	}
-
-	#mainBox2{
-	  width: 100%;
-	  margin-bottom: 0em;
-	  margin-top: 0px;
-	  background-color: white;
-	  padding: 4em 1em 3em 1em;
-	  margin-left: auto;
-	  margin-right: auto;
-	}
-
-	#mainBox3{
-	  width: 100%;
-	  background-color: black;
-	  margin-left: auto;
-	  margin-right: auto;
-	  padding: 4em 1em 4em 1em;
-	}
 
 	#height{
 	 height:65%; 
@@ -85,6 +38,18 @@ body{
 	 margin-left: 6em;
 	}
 
+	.imgBox{
+	 margin-left: auto;
+	 margin-right: auto;
+	 width: 300px;
+   }
+
+   .imgTeaser{
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 }
 
@@ -98,6 +63,18 @@ body{
 		  background-size: cover;
 		}
 
+	.imgBox{
+	 margin-left: auto;
+	 margin-right: auto;
+	 max-width: 400px;
+   }
+
+   .imgTeaser{
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
  }
 
@@ -125,36 +102,18 @@ body{
 	 margin-left: 7em;
 	}
 
-	#mainBox1{
-	 width: 100%;
-	 margin-bottom: 0px;
-	 margin-top: 250px;
-	 background-color: white;
-	 padding: 4em 2em 4em 2em;
+	.imgBox{
 	 margin-left: auto;
 	 margin-right: auto;
-	}
+	 width: 500px;
+   }
 
-	#mainBox2{
-	  width: 100%;
-	  margin-bottom: 0em;
-	  margin-top: 0px;
-	  background-color: white;
-	  padding: 8em 2em 6em 2em;
-	  margin-left: auto;
-	  margin-right: auto;
-	}
-
-	#mainBox3{
-	  width: 100%;
-	  background-color: black;
-	  padding-bottom: 15em;
-	  margin-left: auto;
-	  margin-right: auto;
-	  padding: 6em 2em 8em 2em;
-	}
-
-
+   .imgTeaser{
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
  }
 
@@ -192,13 +151,6 @@ body{
 	text-align: center;
 	color: white;
 	font-family:'Raleway', sans-serif;
-}
-
-
-.imgBox{
-	margin-left: auto;
-	margin-right: auto;
-	width: auto;
 }
 
 .teaser{
@@ -292,18 +244,18 @@ padding: 3em;
   margin-bottom: 0em;
   margin-top: 0px;
   background-color: white;
-  padding: 4em 0em 3em 0em;
+  padding: 2em 0em 2em 0em;
   margin-left: auto;
   margin-right: auto;
 }
 
 #mainBox3{
   width: 100%;
-  background-color: black;
+  background-color: #383838;
   padding-bottom: 15em;
   margin-left: auto;
   margin-right: auto;
-  padding: 3em 0em 4em 0em;
+  padding: 2em 0em 2em 0em;
 }
 
 
@@ -345,10 +297,6 @@ padding: 3em;
 .header{
 	width: 100%;
 	height: 70px;
-}
-
-.imgTeaser{
-	max-width: 100%;
 }
 
 .mainbox3text{
