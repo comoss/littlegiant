@@ -4,7 +4,7 @@
 @media (max-width: 767px) { 
 
 body{
-  background: url('https://lh4.googleusercontent.com/-jImRxXN7glg/VTlXj7K5fRI/AAAAAAAA2iA/K7NvbzmR5aQ/w402-h572-no/background.jpg') no-repeat center center fixed; 	 
+  background: url('https://lh4.googleusercontent.com/-jImRxXN7glg/VTlXj7K5fRI/AAAAAAAA2iA/K7NvbzmR5aQ/w402-h572-no/background.jpg') repeat-y center bottom fixed; 	 
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
