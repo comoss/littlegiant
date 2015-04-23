@@ -38,15 +38,11 @@ body{
 	font-family:'Raleway', sans-serif;
 }
 
-.leftImgBox{
-	margin-left: auto;
-	margin-right: auto;
-}
 
-.rightImgBox{
+.imgBox{
 	margin-left: auto;
 	margin-right: auto;
-	width:100%;
+	width: auto;
 }
 
 .teaser{
@@ -202,6 +198,9 @@ padding: 3em;
 .mainbox3text{
 	color:white;
 	font-family: 'Raleway', sans-serif;
+	padding: 4em;
+	margin-right: 2em;
+	text-align: center;
 }
 
 .space{
@@ -212,16 +211,30 @@ padding: 3em;
 	-ms-transform: rotate(90deg); /* IE 9 */
     -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
     transform: rotate(90deg);
+    margin-top: 2em;
+    margin-bottom: 1em;
 }
 
 .iframe{
 padding: 0px;
 }
 
-.iframeBox{
-padding-left: 27%;
+#iframeBox{
 margin-top: 100px;
-margin-bottom: 
+margin-bottom: 100px;
+padding-left: auto;
+padding-right: auto;
+}
+
+.productDescription{
+	text-align: center;
+	padding: 3em;
+}
+
+#height{
+height:50%;
+width: 50%;
+margin-left: 6em;
 }
 
 /* {
