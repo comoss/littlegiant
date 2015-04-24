@@ -52,12 +52,21 @@ body{
 
 .introContainer{
 	width: 100%;
-	 margin-top: 230px;
+	 margin-top: 0px;
 }
 
 
 	.space{
 	margin:1em 0em 1em 0em;
+}
+
+	#mainBox{
+  width: 100%;
+  margin-top: 275px;
+  background-color: rgba(249, 70, 28, 0.85);
+  padding:3em 0em 3em 0em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 }
@@ -113,6 +122,16 @@ body{
 	.space{
 	margin:1em 0em 1em 0em;
 }
+
+#mainBox{
+  width: 100%;
+  margin-top: 375px;
+  background-color: rgba(249, 70, 28, 0.85);
+  padding:3em 0em 3em 0em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 }
 
@@ -172,6 +191,15 @@ body{
 	.space{
 	margin:1em 0em 1em 0em;
 	font-size: 1.25em;
+}
+
+#mainBox{
+  width: 100%;
+  margin-top: 475px;
+  background-color: rgba(249, 70, 28, 0.85);
+  padding:3em 0em 3em 0em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
  }
@@ -244,12 +272,6 @@ body{
 	 margin-top: 170px;
 }
 
-}
- 
-
-
-
-
 #mainBox{
   width: 100%;
   margin-top: 475px;
@@ -258,6 +280,16 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
+
+
+
+}
+ 
+
+
+
+
+
 
 
 
@@ -399,6 +431,10 @@ x  margin-bottom: 0em;
 	float: left;
 	margin-top: 1.5em;
 	padding-left: 2.5em;
+}
+
+.topBox{
+	width: 100%;
 }
 
 /* {
