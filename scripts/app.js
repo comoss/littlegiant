@@ -15,9 +15,9 @@
             templateUrl: "views/overhaul.html",
           })
           
-        .state('ladder2', {
-            url: "/ladder2",
-            templateUrl: "views/ladder2.html"
+        .state('defender', {
+            url: "/defender",
+            templateUrl: "views/defender.html"
         })
         .state('contact', {
             url: "/contactus",
