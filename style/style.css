@@ -81,19 +81,18 @@
 
 	.introduction{
 	 text-align: center;
-	 font-size: 3.5em;
 	 color:white;
 	 font-family: 'Raleway', sans-serif;
 	 text-transform: uppercase;
 	 margin-top: 50px;
-	 font-size: 20px;
+	 font-size: 30px;
 	}
 
 	.subHeading{
  	 text-align: center;
 	 color: white;
 	 font-family:'Raleway', sans-serif;
-	 font-size: 15px;
+	 font-size: 20px;
 	}
 
 	 .imgBox{
@@ -130,6 +129,12 @@
   	 margin-left: auto;
   	 margin-right: auto;
 	}
+
+	.cross{
+ 	 margin-bottom: 2em;
+ 	 width: 100%;
+	}
+
 }
 
 /* Medium devices (desktops, 992px and up) */
