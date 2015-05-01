@@ -166,7 +166,11 @@
 
 	.productFeatures{
 	 margin: 0em 1em 2em 1em;
+	}
 
+	.featureDescription{
+	 font-size: 1.25em;	
+	 margin-top: .5em;
 	}
 }
 
@@ -249,6 +253,11 @@
 
 	.productFeatures{
 	 margin: 0em 1em 2em 1em;
+	}
+
+	.featureDescription{
+	 font-size: 1.25em;	
+	 margin-top: .5em;
 	}
 
  }
@@ -499,7 +508,7 @@
 }
 
 .carouselPosition{
-	margin-top: 3em;
+	margin: 3em 1.5em 1em 1.5em;
 }
 
 /* {
