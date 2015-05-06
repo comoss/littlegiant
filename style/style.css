@@ -1,15 +1,17 @@
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
+body{
+ background: url('/style/background.jpg') no-repeat center center fixed; 	 
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover !important;
+}
+
 @media (max-width: 767px) { 
 
-	body{
-	 background: url('https://lh3.googleusercontent.com/-ZS3r0TAxa3c/VTlhLmVcaXI/AAAAAAAA2iU/UautaEpzeug/w768-h402-no/background.jpg') no-repeat center bottom fixed; 	 
-	 -webkit-background-size: cover;
-	 -moz-background-size: cover;
-	 -o-background-size: cover;
-	 background-size: cover;
-	}
+
 
     .imgBox{
 	 margin-top: 50px;
@@ -88,13 +90,13 @@
  /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) { 
 	
-	body{
-	 background: url('https://lh3.googleusercontent.com/-ZS3r0TAxa3c/VTlhLmVcaXI/AAAAAAAA2iU/UautaEpzeug/w768-h402-no/background.jpg') no-repeat center center fixed; 	 
+/*	body{
+	 background: url('images/background.jpg') no-repeat center center fixed; 	 
 	 -webkit-background-size: cover;
      -moz-background-size: cover;
 	 -o-background-size: cover;
 	 background-size: cover;
-	}
+	}*/
 
 	.introduction{
 	 text-align: center;
@@ -177,14 +179,14 @@
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199px) { 
 	
-	body{
-	  background: url("https://lh3.googleusercontent.com/-7r_wog9sc0U/VTNBxtHq9zI/AAAAAAAAADk/H9mWETTRGFY/w958-h548-no/73214442_227f267cda_o.jpg") no-repeat center center fixed; 	 
+/*	body{
+	  background: url("images/background.jpg") no-repeat center center fixed; 	 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
 	}
-
+*/
 	.imgBox{
 	 margin-left: auto;
 	 margin-right: auto;
@@ -264,14 +266,14 @@
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-
+/*
 	body{
-	  background: url("https://lh3.googleusercontent.com/-7r_wog9sc0U/VTNBxtHq9zI/AAAAAAAAADk/H9mWETTRGFY/w958-h548-no/73214442_227f267cda_o.jpg") no-repeat center center fixed; 	 
+	  background: url("images/background.jpg") no-repeat center center fixed; 	 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
-	}
+	}*/
 	
 	.imgSize{
 	 width: 80%
