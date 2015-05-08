@@ -9,11 +9,7 @@ body {
  background-size: cover !important;
 }
 
-
-
 @media (max-width: 767px) { 
-
-
 
     .imgBox {
 	 margin-top: 50px;
