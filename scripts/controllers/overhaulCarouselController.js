@@ -18,6 +18,5 @@ angular.module('lgApp').controller('overhaulCarousel', function ($scope) {
        {image: 'images/Overhaul Ratchet.JPG', text: ''},
        {image: 'images/Overhaul extension.JPG', text: ''},
   ];
+
 });
-
-
