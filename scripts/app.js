@@ -1,4 +1,4 @@
- var lgApp = angular.module('lgApp', ["ui.router"])
+ var lgApp = angular.module('lgApp', ["ui.router", "ui.bootstrap"])
     lgApp.config(function($stateProvider, $urlRouterProvider){
       
       // For any unmatched url, send to /route1
@@ -13,14 +13,16 @@
         .state('overhaul', {
             url: "/overhaul",
             templateUrl: "views/overhaul.html",
+            controller: 'overhaulCarousel'
           })
           
         .state('defender', {
             url: "/defender",
-            templateUrl: "views/defender.html"
+            templateUrl: "views/defender.html",
+            controller: 'defenderCarousel'
         })
         .state('contact', {
-            url: "/contactus",
+            url: "/contact-us",
             templateUrl: "views/form.html"
         })        
     })
