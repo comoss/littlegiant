@@ -8,6 +8,7 @@ angular.module('lgApp').controller('overhaulCarousel', function ($scope) {
        {image: 'images/overhaul/Overhaul_17_Stair.jpg', text: ''},
        {image: 'images/overhaul/Overhaul unlevel surface.JPG', text: ''},
        {image: 'images/overhaul/Overhaul_17_90.jpg', text: ''},
+       {image: 'images/overhaul/Overhaul Carry.jpg', text: ''},
        {image: 'images/overhaul/Overhaul17_Ex.jpg', text: ''},
        {image: 'images/overhaul/dsc_0055.jpg', text: ''},
        {image: 'images/overhaul/Overhaul17_Glow_Rung.jpg', text: ''},
