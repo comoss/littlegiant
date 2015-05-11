@@ -52,7 +52,7 @@ body {
 
 	.productDescription {
 	 padding: 0em .5em 2em .5em;
-	 font-size: 1em;
+	 font-size: 1.25em;
 	}
 
 	.introduction{
@@ -113,12 +113,19 @@ body {
 
 	.productFeatures{
 	 margin: 0em 1em 2em 1em;
+	 font-size: 1.25em;
 	}
 
 	.cross{
 		width: 100%;
 		margin: 2em 0em 2em 0em;
 	}
+
+	.featureDescription{
+		font-size: 1em;
+		margin-top: .5em;
+	}
+
 }
 
  /* Small devices (tablets, 768px and up) */
@@ -340,7 +347,7 @@ body {
 	}
 
 	.featureDescription{
-	 font-size: 1.25em;	
+	 font-size: 1.35em;	
 	 margin-top: .5em;
 	}
 
@@ -431,7 +438,7 @@ body {
 	 margin-left: auto;
 	 margin-right: auto;
 	 margin-top: 2em;
-	}	}
+	}	
 
 	.space{
 	 margin:1em 0em 1em 0em;
@@ -471,10 +478,6 @@ body {
 	 margin: 2em 3em 1.5em 5.25em;
 	}
 
-	.featureDescription{
-		font-size: 1.5em;
-		margin-top: .5em;
-	}
 
 	.cross{
  	 margin: 2em 0px 2em 0em;
@@ -482,9 +485,11 @@ body {
  	 border-radius: .35em;
 	}
 
+	.featureDescription{
+		font-size: 1.5em;
+	}
 
-}
- 
+ }
 /*Global Stylings*/
 
 .container-fluid{
