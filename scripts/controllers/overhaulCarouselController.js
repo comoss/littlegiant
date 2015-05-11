@@ -14,7 +14,6 @@ angular.module('lgApp').controller('overhaulCarousel', function ($scope) {
        {image: 'images/overhaul/Overhaul17_Glow_Rung.jpg', text: ''},
        {image: 'images/overhaul/dsc_0095.jpg', text: ''},
        {image: 'images/overhaul/GlowLabel.jpg', text: ''},
-       {image: 'images/overhaul/dsc_0088.jpg', text: ''},
        {image: 'images/overhaul/Overhual17 Ratchet Snow.jpg', text: ''},
        {image: 'images/overhaul/Overhaul Ratchet.JPG', text: ''},
        {image: 'images/overhaul/Overhaul extension.JPG', text: ''},

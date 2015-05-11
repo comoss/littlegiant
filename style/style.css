@@ -73,7 +73,7 @@ body {
 	}
 
 	.teaser{
-	 width: 264px;
+	 width: 270px;
 	 margin-left: auto;
 	 margin-right: auto;
 	 margin-top: 25px;
@@ -113,7 +113,11 @@ body {
 
 	.productFeatures{
 	 margin: 0em 1em 2em 1em;
+	}
 
+	.cross{
+		width: 100%;
+		margin: 2em 0em 2em 0em;
 	}
 }
 
@@ -177,7 +181,7 @@ body {
 	}
 
 	.teaser{
-	 width: 264px;
+	 width: 270px;
 	 margin-left: auto;
 	 margin-right: auto;
 	 margin-top: 25px;
@@ -203,8 +207,9 @@ body {
 	}
 
 	.cross{
+ 	 margin-top: 2em;
  	 margin-bottom: 2em;
- 	 width: 30%;
+ 	 width: 100%;
 	}
 
 	.homeTextContainer{
@@ -291,7 +296,7 @@ body {
 	}
 
 	.teaser{
-	 width: 464px;
+	 width: 564px;
 	 margin-left: auto;
 	 margin-right: auto;
 	 margin-top: 45px;
@@ -340,8 +345,9 @@ body {
 	}
 
 	.cross{
+ 	 margin-top: 2em;
  	 margin-bottom: 2em;
- 	 width: 30%;
+ 	 width: 100%;
 	}
 
 
@@ -421,11 +427,11 @@ body {
 	}
 
 	.teaser{
-	 width: 564px;
+	 width: 764px;
 	 margin-left: auto;
 	 margin-right: auto;
-	 margin-top: 25px;
-	}
+	 margin-top: 2em;
+	}	}
 
 	.space{
 	 margin:1em 0em 1em 0em;
@@ -471,9 +477,8 @@ body {
 	}
 
 	.cross{
- 	 margin: 2em 0px 0px 2em;
- 	 max-width: 30%;
- 	 border: 3px solid white;
+ 	 margin: 2em 0px 2em 0em;
+ 	 width: 100%;
  	 border-radius: .35em;
 	}
 
@@ -590,7 +595,7 @@ body {
 
 .topBox{
  width: 100%;
- margin-bottom: 70em;
+ margin-bottom: 7em;
 }
 
 .carouselImgPosition{
