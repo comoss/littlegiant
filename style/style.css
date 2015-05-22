@@ -2,14 +2,14 @@
 /* No media query since this is the default in Bootstrap */
 
 body {
- background: url(../images/73214442_227f267cda_o.jpg) no-repeat center center fixed; 	 
+ background: url(../images/73214442_227f267cda_o.jpg) no-repeat center center fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
  background-size: cover !important;
 }
 
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
 
 	.home{
 	 width: 100px;
@@ -73,7 +73,6 @@ body {
 	}
 
 	.teaser{
-	 width: 270px;
 	 margin-left: auto;
 	 margin-right: auto;
 	 margin-top: 25px;
@@ -128,8 +127,8 @@ body {
 }
 
  /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991px) { 
-	
+@media (min-width: 768px) and (max-width: 991px) {
+
 .home{
 	 width: 125px;
 	 float: left;
@@ -178,7 +177,7 @@ body {
 	}
 
 	 .imgBox{
-	  margin-bottom: 25px; 
+	  margin-bottom: 25px;
 	}
 
 	.productDescription{
@@ -187,7 +186,6 @@ body {
 	}
 
 	.teaser{
-	 width: 270px;
 	 margin-left: auto;
 	 margin-right: auto;
 	 margin-top: 25px;
@@ -236,14 +234,14 @@ body {
 	}
 
 	.featureDescription{
-	 font-size: 1.25em;	
+	 font-size: 1.25em;
 	 margin-top: .5em;
 	}
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199px) { 
-	
+@media (min-width: 992px) and (max-width: 1199px) {
+
 .home{
 	 width: 150px;
 	 float: left;
@@ -302,7 +300,6 @@ body {
 	}
 
 	.teaser{
-	 width: 564px;
 	 margin-left: auto;
 	 margin-right: auto;
 	 margin-top: 45px;
@@ -336,7 +333,7 @@ body {
 	 margin-top: 2em;
 	 background-color: rgba(249, 70, 28, 0.75);
 	}
-	
+
 	.homeText{
 	 font-size: 20px;
 	}
@@ -346,7 +343,7 @@ body {
 	}
 
 	.featureDescription{
-	 font-size: 1.35em;	
+	 font-size: 1.35em;
 	 margin-top: .5em;
 	}
 
@@ -360,7 +357,7 @@ body {
  }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
 .home{
 	 width: 200px;
 	 float: left;
@@ -391,7 +388,7 @@ body {
 	 margin-top: 1.5em;
 	 display: inline-block;
 	}
-	
+
 	.imgSize{
 	 width: 80%
 	}
@@ -433,11 +430,10 @@ body {
 	}
 
 	.teaser{
-	 width: 764px;
 	 margin-left: auto;
 	 margin-right: auto;
 	 margin-top: 2em;
-	}	
+	}
 
 	.space{
 	 margin:1em 0em 1em 0em;
@@ -471,7 +467,7 @@ body {
 
 	.homeText{
 	 font-size: 20px;
-	}	
+	}
 
 	.productFeatures{
 	 margin: 2em 3em 1.5em 5.25em;
@@ -516,7 +512,7 @@ body {
 }
 
 .fa{
- color: white; 
+ color: white;
  margin-top: 35px;
  margin-left: .25em;
  margin-right: .25em;
@@ -547,7 +543,7 @@ body {
 .callOutLink:hover{
  color:#ff6600;
 }
- 
+
 .ladderName{
  text-align: center;
  color:black;
