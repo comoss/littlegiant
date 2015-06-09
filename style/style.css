@@ -18,6 +18,9 @@ body {
   .phoneLink {
     text-align: center;
     font-family: 'Raleway', sans-serif;
+    margin-top: 75px;
+    color: white;
+    font-size: 1.25em;
   }
 
 	.home {
@@ -138,6 +141,18 @@ body {
  /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
 
+  .phone {
+    height:150px;
+  }
+
+  .phoneLink {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 75px;
+    color: white;
+    font-size: 1.25em;
+  }
+
 .home{
 	 width: 125px;
 	 float: left;
@@ -250,6 +265,18 @@ body {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199px) {
+
+  .phone {
+    height:150px;
+  }
+
+  .phoneLink {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 75px;
+    color: white;
+    font-size: 1.25em;
+  }
 
 .home{
 	 width: 150px;
@@ -367,6 +394,19 @@ body {
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+
+  .phone {
+    height:150px;
+  }
+
+  .phoneLink {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 75px;
+    color: white;
+    font-size: 1.25em;
+  }
+
 .home{
 	 width: 200px;
 	 float: left;
