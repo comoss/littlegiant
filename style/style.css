@@ -11,25 +11,34 @@ body {
 
 @media (max-width: 767px) {
 
-	.home{
+  .phone {
+    height:150px;
+  }
+
+  .phoneLink {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+  }
+
+	.home {
 	 width: 100px;
 	 float: left;
 	 margin-top: 1.5em;
 	 padding-left: .5em;
 	}
 
-	#header{
+	#header {
 	 width: 100%;
 	 height: 70px;
 	 margin-bottom: 11em;
 	 padding-left: 0em;
 	}
 
-	.homeButton{
+	.homeButton {
 		float: left;
 	}
 
-	.requestInfoButton{
+	.requestInfoButton {
 	 height: 35px;
 	 width: 148px;
 	 padding: 5px 0px 0px 0px;
