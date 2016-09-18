@@ -4,6 +4,3 @@ promotional site for little giant ladders new products designed specifically for
 wwww.littlegiantfire.com
 
 
-Design by Devstop 
-
-visit us at www.devstop.co
